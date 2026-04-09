@@ -5,16 +5,16 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) throws IOException {
         Customer[] customers = new Customer[] {
-                new Customer("홍길동", "1234", '1'),
-                new Customer("홍길동", "1234", '2'),
-                new Customer("홍길동", "1234", '3'),
-                new Customer("홍길동", "1234", '4'),
-                new Customer("홍길동", "1234", '5'),
+                new Home("홍길동", "1234"),
+                new Business("홍길동", "1234"),
+                new Factory("홍길동", "1234"),
+                new Gorvernment( "홍길동", "1234"),
+                new Army("홍길동", "1234"),
+                new School("경복대", "2345")
         };
 
         WaterOffice office = new WaterOffice(customers);
         office.inputData();
         office.display();
-
     }
 }
