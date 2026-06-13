@@ -18,6 +18,7 @@ public class Main {
                 break;
         }
 
+
         ZXingHandler handler = new ZXingHandler();
         handler.encoding(data, BarcodeFormat.CODE_128, path + fileName);
     }
