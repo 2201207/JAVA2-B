@@ -14,6 +14,7 @@ public class ClassRoom {
         }
     }
 
+
     protected void display(int type) {
         if (type == 1) {
             System.out.println("\t\t\t\t 고등학교 성적표");
