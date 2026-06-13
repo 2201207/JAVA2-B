@@ -8,6 +8,7 @@ abstract public class Customer extends Person implements Constants{
         this.powerUsage = powerUsage;
     }
 
+
     public int getPowerUsage() {
         return powerUsage;
     }
