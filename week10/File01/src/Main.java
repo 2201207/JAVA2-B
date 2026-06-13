@@ -5,6 +5,7 @@ void main() {
     String outputPath = ".\\data\\kbu_copy.jpg";
     int count = 0;
 
+
     File file = new File(filePath);
     if (file.exists()) {
         System.out.printf("%s File이 존재합니다.\n", filePath);
