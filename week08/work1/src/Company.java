@@ -7,6 +7,7 @@ public class Company {
         employeeStack = new Stack(capacity);
     }
 
+
     public void addEmployee(Employee emp) {
         employeeStack.push(emp);
     }
