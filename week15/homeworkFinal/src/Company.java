@@ -21,6 +21,7 @@ public class Company {
         }
     }
 
+
     public ArrayList<Employee> getEmployees() {
         return employees;
     }
